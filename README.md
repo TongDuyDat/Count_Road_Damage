@@ -60,6 +60,6 @@ python yolov5/train.py --weights your_weights.pt --data your_data.yaml --img 640
 
 # Thực hiện việc triển khai mô hình 
 ```bash
-python -track.py --yolo_weights yolov5\fine_tuning1.pt --source video1.mp4 --show-vid --save-vid
+python track.py --yolo_weights yolov5\fine_tuning1.pt --source video1.mp4 --show-vid --save-vid
 ```
 
